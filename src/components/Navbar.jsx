@@ -56,7 +56,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <a className=" text-white text-sm rounded-md flex items-center ">
               <FaDownload className="text-white text-sm md:text-lg lg:text-xl xl:text-2xl  " />
-              <h6 className="text-white text-sm md:text-md lg:text-lg xl:text-xl">
+              <h6 className="text-white text-sm md:text-md lg:text-md xl:text-lg">
                 Install App
               </h6>
             </a>
@@ -69,7 +69,7 @@ export default function Navbar() {
           </div>
           {/* signup button */}
           <div className="flex items-center">
-            <button className="bg-white text-black px-2 py-2 rounded-full md:text-md lg:text-lg xl:text-xl">
+            <button className="bg-white text-black px-2 py-2 rounded-full md:text-sm lg:text-md xl:text-lg">
               Signup
             </button>
           </div>
